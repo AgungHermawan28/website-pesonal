@@ -1,0 +1,86 @@
+
+<body class="bg-gray-100">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md p-4 flex justify-between items-center">
+        <h1 class="text-xl font-bold">SAH STUDIO CREATIVE</h1>
+        <ul class="flex space-x-4">
+            <li><a href="#portfolio" class="hover:text-blue-500">Portfolio</a></li>
+            <li><a href="#services" class="hover:text-blue-500">Layanan</a></li>
+            <li><a href="#testimonials" class="hover:text-blue-500">Testimoni</a></li>
+            <li><a href="#contact" class="hover:text-blue-500">Kontak</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Hero Section -->
+    <header class="h-64 bg-cover bg-center flex items-center justify-center text-blue-500 text-3xl font-bold" style="background-image: url('https://source.unsplash.com/800x600/?camera')">
+        Abadikan Momen Terbaik Anda
+    </header>
+    
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="p-8">
+        <h2 class="text-2xl font-bold text-center mb-6">Portofolio</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <img src="https://source.unsplash.com/300x300/?wedding" class="rounded-lg shadow-md">
+            <img src="https://source.unsplash.com/300x300/?event" class="rounded-lg shadow-md">
+            <img src="https://source.unsplash.com/300x300/?product" class="rounded-lg shadow-md">
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section id="services" class="p-8 bg-white">
+        <h2 class="text-2xl font-bold text-center mb-6">Layanan Kami</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+            <div class="p-4 bg-gray-200 rounded-lg shadow-md">Fotografi Wedding</div>
+            <div class="p-4 bg-gray-200 rounded-lg shadow-md">Videografi Event</div>
+            <div class="p-4 bg-gray-200 rounded-lg shadow-md">Foto Produk</div>
+        </div>
+    </section>
+    
+     <!-- Portfolio Section (Gambar & Video) -->
+     <section id="portfolio" class="p-8">
+        <h2 class="text-2xl font-bold text-center mb-6">Portofolio</h2>
+        
+        <!-- Portofolio Gambar -->
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
+            <img src="https://source.unsplash.com/400x300/?wedding" class="rounded-lg shadow-md">
+            <img src="https://source.unsplash.com/400x300/?event" class="rounded-lg shadow-md">
+            <img src="https://source.unsplash.com/400x300/?product" class="rounded-lg shadow-md">
+        </div>
+        
+        <!-- Portofolio Video Lokal -->
+        <h3 class="text-xl font-semibold text-center mb-4">Video Portofolio</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <video controls class="w-full rounded-lg shadow-md">
+                <source src="Final Edit 01.mp4" type="video/mp4">
+                Browser tidak mendukung video.
+            </video>
+            <video controls class="w-full rounded-lg shadow-md">
+                <source src="Final Edit 01.mp4" type="video/mp4">
+                Browser tidak mendukung video.
+            </video>
+        </div>
+        
+        <!-- Portofolio Video YouTube -->
+        <h3 class="text-xl font-semibold text-center mt-8 mb-4">Video dari YouTube</h3>
+        <div class="flex justify-center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen class="rounded-lg shadow-md"></iframe>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="p-8">
+        <h2 class="text-2xl font-bold text-center mb-6">Testimoni Klien</h2>
+        <p class="text-center italic">"Hasil fotonya luar biasa! Profesional dan berkualitas."</p>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="p-8 bg-white text-center">
+        <h2 class="text-2xl font-bold mb-4">Hubungi Kami</h2>
+        <a href="https://wa.me/6282240887757" class="bg-green-500 text-white px-6 py-3 rounded-full shadow-md">Chat WhatsApp</a>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="text-center p-4 bg-gray-800 text-white">&copy; 2025 FotoVideoPro</footer>
+</body>
+</html>
